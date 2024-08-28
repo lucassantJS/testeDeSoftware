@@ -1,124 +1,109 @@
-# 📋 Plano de Teste - Lista de Tarefas
+# Plano de Teste - Aplicativo "Lista de Tarefas"
 
-Bem-vindo ao plano de teste para o aplicativo "Lista de Tarefas". Este documento detalha os objetivos, itens a serem testados, abordagens e responsabilidades para garantir que a aplicação atenda aos padrões de qualidade esperados.
+## Introdução
 
----
+**"Lista de Tarefas"**! Este documento visa assegurar que o app atenda aos padrões de qualidade e funcione conforme esperado. Vamos garantir que todas as funcionalidades estejam operando corretamente e que a experiência do usuário seja perfeita.
 
-## 1. Introdução
-O objetivo deste plano é garantir que a aplicação **"Lista de Tarefas"** funcione conforme o esperado e atenda a todos os requisitos especificados.
+## Objetivos do Teste
 
-## 2. Objetivo
-Este plano de teste visa:
+- Verificar a funcionalidade principal do app (adicionar, editar, excluir e concluir tarefas).
+- Garantir uma interface amigável e rápida.
+- Testar a compatibilidade com diferentes navegadores e dispositivos.
+- Avaliar o desempenho do app sob alta demanda.
+- Certificar uma experiência positiva e livre de falhas.
+- Atender aos requisitos funcionais e não funcionais.
+- Identificar e corrigir problemas antes do lançamento.
 
--  **Validar funcionalidades de gerenciamento de tarefas:** adicionar, editar, excluir e marcar como concluídas.
--  **Garantir uma interface de usuário intuitiva e responsiva.**
--  **Avaliar a compatibilidade com diferentes navegadores e dispositivos.**
--  **Verificar o desempenho sob diferentes condições de carga.**
--  **Assegurar uma experiência de usuário consistente e satisfatória.**
+## Descrição do Aplicativo
 
-## 3. Itens de Teste
-Os principais componentes que serão testados incluem:
+O **"Lista de Tarefas"** é um aplicativo web destinado a gerenciar atividades diárias. Oferece funcionalidades básicas e uma interface amigável, acessível em diversos dispositivos e navegadores.
 
--  **Adicionar Tarefas**
--  **Editar Tarefas**
--  **Excluir Tarefas**
--  **Marcar Tarefas como Concluídas**
--  **Elementos da Interface do Usuário (UI)**
--  **Desempenho e Responsividade**
--  **Compatibilidade entre Navegadores e Dispositivos**
+## Escopo dos Testes
 
-## 4. Funcionalidades a Serem Testadas
+### O Que Será Testado
 
--  **Adição e validação de tarefas**
--  **Edição de tarefas**
--  **Exclusão de tarefas**
--  **Marcação de tarefas como concluídas**
--  **Consistência e design da UI**
--  **Tempos de carregamento e desempenho sob carga**
--  **Compatibilidade com diferentes navegadores e dispositivos**
+- **Funcionalidade:** Adição, edição, exclusão e conclusão de tarefas.
+- **Usabilidade:** Navegação intuitiva e design amigável.
+- **Compatibilidade:** Funcionamento em navegadores como Chrome, Firefox e Edge, e em dispositivos móveis com iOS e Android.
+- **Desempenho:** Tempo de resposta e estabilidade.
+- **Segurança:** Proteção básica dos dados do usuário.
 
-## 5. Funcionalidades Fora do Escopo
-As seguintes áreas não serão cobertas:
+### O Que Está Fora do Escopo
 
--  **Integração com banco de dados e testes de backend (foco no front-end).**
--  **Requisitos não funcionais, como segurança.**
+- Integração com banco de dados e testes do backend.
+- Testes avançados de segurança.
 
-## 6. Abordagem
-O teste será conduzido em fases estruturadas:
+## Metodologia de Teste
 
-1. **Teste Unitário**: Componentes individuais testados isoladamente.
-2. **Teste de Integração**: Verificação da interação entre componentes.
-3. **Teste de Sistema**: Teste completo da funcionalidade de ponta a ponta.
-4. **Teste de Aceitação do Usuário**: Verificação do aplicativo sob a perspectiva do usuário.
+1. **Teste Unitário:** Verificação dos componentes individuais.
+2. **Teste de Integração:** Confirmação do funcionamento conjunto dos componentes.
+3. **Teste de Sistema:** Simulação do uso real do aplicativo.
+4. **Teste de Aceitação do Usuário:** Avaliação da experiência do usuário final.
 
-## 7. Critérios de Aprovação/Reprovação
-- **Aprovação:** O teste é aprovado se os resultados obtidos corresponderem aos esperados sem problemas significativos.
-- **Reprovação:** Caso o comportamento esperado não seja atendido, o teste será reprovado.
+## Critérios de Aprovação e Reprovação
 
-## 8. Critérios de Suspensão e Retomada
-O processo de teste será suspenso se:
+- **Aprovação:** Se o app atender às expectativas e funcionar sem problemas graves.
+- **Reprovação:** Se houver problemas críticos ou não cumprimento dos requisitos.
 
--  **Erros críticos impedirem a continuidade dos testes.**
--  **Os ambientes de teste ou recursos necessários não estiverem disponíveis.**
+## Procedimentos
 
-As atividades de teste serão retomadas após a resolução dos problemas.
+### Pausa dos Testes
 
-## 9. Entregáveis de Teste
-Durante o processo de teste, serão gerados:
+Os testes poderão ser pausados se:
 
--  **Casos de Teste**
--  **Scripts de Teste (se aplicável)**
--  **Resultados e Logs**
--  **Relatórios de Bugs**
--  **Relatório Resumido de Testes**
+- Erros críticos impedirem o progresso.
+- Recursos ou ferramentas necessárias não estiverem disponíveis.
+- Requisitos de teste precisarem ser ajustados.
 
-## 10. Tarefas de Teste
-As tarefas de teste incluirão:
+### Entregas
 
--  **Criação de casos de teste.**
--  **Configuração do ambiente de teste.**
--  **Execução dos casos de teste.**
--  **Documentação dos resultados e defeitos.**
--  **Reteste de defeitos corrigidos.**
+Durante o processo de teste, serão produzidos:
 
-## 11. Necessidades Ambientais
-Os seguintes recursos são necessários:
+- **Casos de Teste:** Cenários a serem testados.
+- **Scripts de Teste:** Automatização de testes repetitivos.
+- **Resultados e Logs:** Registro detalhado dos testes.
+- **Relatórios de Bugs:** Documentação dos problemas encontrados.
+- **Relatório Final de Testes:** Resumo das atividades e análise dos resultados.
 
--  **Dispositivos:** PC, Laptop, Smartphone
--  **Navegadores:** Chrome, Firefox, Edge
--  **Ferramentas de Teste:** DevTools, Console, Lighthouse
+## Responsabilidades
 
-## 12. Responsabilidades
-- **Líder de Teste:** Lucas
-- **Equipe de QA:** Testadores
-- **Desenvolvedores:** Auxílio na correção dos problemas identificados
+- **Líder de Teste:** Lucas — Planejamento e coordenação.
+- **Equipe de QA:** Testadores — Execução e documentação.
+- **Desenvolvedores:** Correção dos problemas identificados.
 
-## 13. Cronograma
+## Cronograma
 
-| Atividade                   | Duração  |
-|-----------------------------|----------|
-| Planejamento dos Testes      | 1 dia    |
-| Design dos Casos de Teste    | 1 dia    |
-| Execução dos Testes          | 2 dias   |
-| Correção de Bugs             | 2 dias   |
-| Teste de Regressão           | 1 dia    |
-| Revisão Final                | 1 dia    |
+- **Planejamento dos Testes:** 2 dias
+- **Design dos Casos de Teste:** 2 dias
+- **Execução dos Testes:** 3 dias
+- **Correção de Bugs:** 3 dias
+- **Teste de Regressão:** 2 dias
+- **Revisão Final:** 1 dia
 
-## 14. Riscos e Contingências
-**Riscos Potenciais:**
+## Possíveis Problemas e Soluções
 
--  **Atrasos na configuração do ambiente de teste.**
--  **Problemas de compatibilidade com certos navegadores.**
+### Riscos Potenciais
 
-**Planos de Contingência:**
+- Atrasos na configuração do ambiente.
+- Problemas de compatibilidade.
+- Defeitos críticos descobertos tardiamente.
+- Recursos limitados para testes em múltiplas plataformas.
 
--  **Uso de navegadores ou dispositivos alternativos.**
--  **Extensão do cronograma de testes, se necessário.**
+### Planos de Contingência
 
-## 15. Aprovações
-Este plano de teste é aprovado por:
+- Usar navegadores ou dispositivos alternativos.
+- Ajustar o cronograma de testes.
+- Priorizar a resolução de problemas críticos.
+- Focar nos testes essenciais para garantir a funcionalidade básica.
 
-- **Lucas** 
+## Aprovações
+
+Este plano de teste foi aprovado por:
+
+- **Lucas**
 - **Fellipe Zapelini**
 - **Arthur Ivaza**
 
+---
+
+Se precisar de mais informações ou ajustes, não hesite em entrar em contato!
