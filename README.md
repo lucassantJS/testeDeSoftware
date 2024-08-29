@@ -103,7 +103,3 @@ Este plano de teste foi aprovado por:
 - **Lucas**
 - **Fellipe Zapelini**
 - **Arthur Ivaza**
-
----
-
-Se precisar de mais informações ou ajustes, não hesite em entrar em contato!
