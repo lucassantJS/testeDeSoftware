@@ -1,7 +1,7 @@
 # Plano de Teste - Aplicativo "Lista de Tarefas"
 
 ## Introdução
-Este plano de teste visa garantir que o aplicativo **Lista de Tarefas** atenda aos padrões de qualidade esperados, funcionando conforme os requisitos estabelecidos. O objetivo é assegurar que as funcionalidades principais operem corretamente e que o aplicativo ofereça uma experiência de usuário fluida e eficiente, mesmo em condições de alta demanda.
+Este plano de teste garante que o aplicativo **Lista de Tarefas** atenda aos padrões de qualidade esperados, funcionando conforme os requisitos estabelecidos. O objetivo é assegurar que as funcionalidades principais operem corretamente e que o aplicativo ofereça uma experiência de usuário eficiente, mesmo em condições de alta demanda.
 
 ## Objetivos do Teste
 - Verificar a funcionalidade principal do app (adicionar, editar, excluir e concluir tarefas).
